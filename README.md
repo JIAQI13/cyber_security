@@ -1,5 +1,4 @@
 # cyber_security
-a repo for class work in one of my university class, used as my online resume
 CMPUT 333 - Security in a Networked World
 Overview
 The proverb "A chain is only as strong as its weakest link." accurately describes the situation with the security of todays network-centric computing infrastructure and the vast number of applications and services relying on it.
