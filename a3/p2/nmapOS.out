@@ -1,0 +1,292 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2019-04-05 15:30 MDT
+Nmap scan report for 10.229.100.101
+Host is up (0.0084s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: FA:16:3E:00:46:DE (Unknown)
+Aggressive OS guesses: Linux 2.6.32 - 3.9 (96%), Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 2.6.32 (95%), Linux 3.8 (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 2.6.26 - 2.6.35 (94%), Linux 2.6.32 - 2.6.35 (93%), Linux 2.6.32 - 3.2 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-102.yeg.cloud.cybera.ca (10.229.100.102)
+Host is up (0.00064s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+MAC Address: FA:16:3E:22:3D:08 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 3.7 - 3.9 (92%), ODROID-U2 Android development board (Linux 3.0) (92%), Linux 2.6.32 (92%), Linux 3.6.10 (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-130.yeg.cloud.cybera.ca (10.229.100.130)
+Host is up (0.00052s latency).
+Not shown: 997 filtered ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: FA:16:3E:02:84:52 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Crestron XPanel control system (89%), Netgear DG834G WAP or Western Digital WD TV media player (89%), HP P2000 G3 NAS device (86%), Linux 3.1 (86%), Linux 3.2 (86%), AXIS 210A or 211 Network Camera (Linux 2.6) (86%), Linux 2.6.26 - 2.6.35 (85%), Linux 3.7 - 3.9 (85%), ODROID-U2 Android development board (Linux 3.0) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-131.yeg.cloud.cybera.ca (10.229.100.131)
+Host is up (0.00093s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: FA:16:3E:00:65:30 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), ODROID-U2 Android development board (Linux 3.0) (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%), Linux 3.2.0 (92%), Linux 3.1 - 3.2 (91%), Linux 3.7 - 3.9 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-132.yeg.cloud.cybera.ca (10.229.100.132)
+Host is up (0.00071s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: FA:16:3E:C4:6B:C5 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 3.7 - 3.9 (92%), ODROID-U2 Android development board (Linux 3.0) (92%), Linux 2.6.32 (92%), Linux 3.6.10 (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-133.yeg.cloud.cybera.ca (10.229.100.133)
+Host is up (0.00063s latency).
+Not shown: 997 filtered ports
+PORT   STATE  SERVICE
+21/tcp open   ftp
+22/tcp open   ssh
+80/tcp closed http
+MAC Address: FA:16:3E:B1:DF:BB (Unknown)
+Device type: storage-misc|WAP|specialized|media device|general purpose|broadband router
+Running (JUST GUESSING): HP embedded (90%), Linux 2.6.X|3.X|2.4.X (88%), Crestron 2-Series (88%), Netgear embedded (88%), Western Digital embedded (88%), Linksys Linux 2.4.X (86%)
+OS CPE: cpe:/h:hp:p2000_g3 cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:crestron:2_series cpe:/h:netgear:dg834g cpe:/o:westerndigital:wd_tv cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:2.4 cpe:/o:linksys:linux_kernel:2.4
+Aggressive OS guesses: HP P2000 G3 NAS device (90%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (88%), Crestron XPanel control system (88%), Netgear DG834G WAP or Western Digital WD TV media player (88%), Linux 2.6.22 (88%), Linux 3.0 - 3.9 (87%), Linux 2.6.23 - 2.6.38 (87%), Linux 2.6.31 - 2.6.32 (87%), Linux 2.6.32 (87%), Linux 2.6.32 - 2.6.39 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-135.yeg.cloud.cybera.ca (10.229.100.135)
+Host is up (0.00063s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: FA:16:3E:CD:CC:F0 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 3.7 - 3.9 (92%), ODROID-U2 Android development board (Linux 3.0) (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%), Linux 3.2.0 (92%), Linux 3.1 - 3.2 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-136.yeg.cloud.cybera.ca (10.229.100.136)
+Host is up (0.00060s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: FA:16:3E:1B:D9:28 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 3.7 - 3.9 (92%), ODROID-U2 Android development board (Linux 3.0) (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%), Linux 3.2.0 (92%), Linux 3.1 - 3.2 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-137.yeg.cloud.cybera.ca (10.229.100.137)
+Host is up (0.0012s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: FA:16:3E:53:3A:8C (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 3.7 - 3.9 (92%), ODROID-U2 Android development board (Linux 3.0) (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%), Linux 3.2.0 (92%), Linux 3.1 - 3.2 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-138.yeg.cloud.cybera.ca (10.229.100.138)
+Host is up (0.00097s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: FA:16:3E:B9:04:18 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%), Linux 3.2.0 (92%), Linux 3.7 - 3.9 (91%), ODROID-U2 Android development board (Linux 3.0) (91%), Linux 2.4.26 (Slackware 10.0.0) (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-139.yeg.cloud.cybera.ca (10.229.100.139)
+Host is up (0.00085s latency).
+Not shown: 996 filtered ports
+PORT   STATE  SERVICE
+20/tcp closed ftp-data
+21/tcp open   ftp
+22/tcp open   ssh
+80/tcp open   http
+MAC Address: FA:16:3E:A7:45:66 (Unknown)
+Aggressive OS guesses: HP P2000 G3 NAS device (90%), Linux 2.6.26 - 2.6.35 (89%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (88%), Linux 3.0 - 3.9 (88%), Crestron XPanel control system (88%), Netgear DG834G WAP or Western Digital WD TV media player (88%), Linux 3.5 (87%), Linux 2.6.22 (87%), Linux 2.6.23 - 2.6.38 (87%), Linux 2.6.31 - 2.6.32 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-140.yeg.cloud.cybera.ca (10.229.100.140)
+Host is up (0.00067s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: FA:16:3E:BB:1D:57 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (93%), Linux 3.2 (93%), AXIS 210A or 211 Network Camera (Linux 2.6) (92%), Linux 2.4.26 (Slackware 10.0.0) (91%), Crestron XPanel control system (91%), Linux 3.7 - 3.9 (91%), ODROID-U2 Android development board (Linux 3.0) (91%), Linux 2.6.22 (90%), Linux 2.6.24 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-142.yeg.cloud.cybera.ca (10.229.100.142)
+Host is up (0.00063s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: FA:16:3E:00:91:F2 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 3.7 - 3.9 (92%), ODROID-U2 Android development board (Linux 3.0) (92%), Linux 2.6.32 (92%), Linux 3.6.10 (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.229.100.143
+Host is up (0.00054s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+MAC Address: FA:16:3E:D1:A7:05 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (93%), Linux 3.2 (93%), AXIS 210A or 211 Network Camera (Linux 2.6) (92%), Linux 2.4.26 (Slackware 10.0.0) (91%), Crestron XPanel control system (91%), Linux 3.7 - 3.9 (91%), ODROID-U2 Android development board (Linux 3.0) (91%), Linux 2.6.22 (90%), Linux 2.6.24 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-144.yeg.cloud.cybera.ca (10.229.100.144)
+Host is up (0.00063s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: FA:16:3E:A5:A2:7E (Unknown)
+Aggressive OS guesses: Linux 2.6.32 - 3.9 (96%), Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 2.6.32 (95%), Linux 3.8 (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 2.6.32 - 3.2 (93%), Linux 2.6.26 - 2.6.35 (93%), Linux 2.6.32 - 2.6.35 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-147.yeg.cloud.cybera.ca (10.229.100.147)
+Host is up (0.0071s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE
+20/tcp   closed ftp-data
+21/tcp   open   ftp
+22/tcp   open   ssh
+80/tcp   open   http
+443/tcp  open   https
+8080/tcp closed http-proxy
+MAC Address: FA:16:3E:9F:8D:2F (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (94%), Crestron XPanel control system (93%), Linux 3.1 (92%), Linux 3.2 (92%), AXIS 210A or 211 Network Camera (Linux 2.6) (92%), Linux 2.6.32 - 3.6 (89%), Linux 2.6.32 - 3.9 (89%), Linux 3.7 - 3.9 (89%), Linux 3.2.0 (88%), Linux 2.6.22 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.229.100.150
+Host is up (0.0081s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+MAC Address: FA:16:3E:64:E1:48 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 3.7 - 3.9 (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%), Linux 3.1 - 3.2 (91%), Linux 3.3 (91%), Linux 3.3 - 3.6 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for victimswindowsinstance.yeg.cloud.cybera.ca (10.229.100.151)
+Host is up (0.0077s latency).
+Not shown: 988 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+MAC Address: FA:16:3E:BD:7A:D3 (Unknown)
+Device type: general purpose
+Running: Microsoft Windows 7|2012
+OS CPE: cpe:/o:microsoft:windows_7:::ultimate cpe:/o:microsoft:windows_2012
+OS details: Microsoft Windows 7 or Windows Server 2012
+Network Distance: 1 hop
+
+Nmap scan report for logger.yeg.cloud.cybera.ca (10.229.100.154)
+Host is up (0.0078s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: FA:16:3E:A6:18:7E (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), ODROID-U2 Android development board (Linux 3.0) (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%), Linux 3.2.0 (92%), Linux 3.1 - 3.2 (91%), Linux 3.7 - 3.9 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-155.cloud.cybera.ca (10.229.100.155)
+Host is up (0.00054s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+MAC Address: FA:16:3E:D1:A7:05 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 3.7 - 3.9 (92%), ODROID-U2 Android development board (Linux 3.0) (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%), Linux 3.2.0 (92%), Linux 3.1 - 3.2 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-156.cloud.cybera.ca (10.229.100.156)
+Host is up (0.0077s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: FA:16:3E:FE:09:D1 (Unknown)
+Aggressive OS guesses: Netgear DG834G WAP or Western Digital WD TV media player (95%), Linux 3.1 (94%), Linux 3.2 (94%), AXIS 210A or 211 Network Camera (Linux 2.6) (94%), Linux 3.7 - 3.9 (92%), Linux 2.6.32 - 3.6 (92%), Linux 2.6.32 - 3.9 (92%), Linux 3.3 - 3.6 (91%), Linux 2.4.26 (Slackware 10.0.0) (91%), Crestron XPanel control system (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for host-10-229-100-141.yeg.cloud.cybera.ca (10.229.100.141)
+Host is up (0.000070s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=6.40%E=4%D=4/5%OT=21%CT=1%CU=34506%PV=Y%DS=0%DC=L%G=Y%TM=5CA7CBAD
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=107%TI=Z%CI=I%TS=8)SEQ(SP=10
+OS:5%GCD=1%ISR=107%TI=Z%CI=I%II=I%TS=8)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%
+OS:O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=AAA
+OS:A%W2=AAAA%W3=AAAA%W4=AAAA%W5=AAAA%W6=AAAA)ECN(R=Y%DF=Y%T=40%W=AAAA%O=MFF
+OS:D7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4
+OS:(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%
+OS:F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%
+OS:T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%R
+OS:ID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 256 IP addresses (21 hosts up) scanned in 714.72 seconds

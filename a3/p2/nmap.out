@@ -1,0 +1,324 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2019-04-04 16:59 MDT
+Nmap scan report for 10.229.100.51
+Host is up (0.0030s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.2
+22/tcp open  ssh     (protocol 2.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6B%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for 10.229.100.52
+Host is up (0.0045s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     (protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6B%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+
+Nmap scan report for 10.229.100.101
+Host is up (0.0065s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     (protocol 2.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6B%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+
+Nmap scan report for host-10-229-100-102.yeg.cloud.cybera.ca (10.229.100.102)
+Host is up (0.0065s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.68
+80/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port80-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6C%P=x86_64-pc-linux-gnu%r(GetRe
+SF:quest,EA,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/plain;\x20cha
+SF:rset=UTF-8\r\nContent-Length:\x2098\r\nDate:\x20Thu,\x2004\x20Apr\x2020
+SF:19\x2023:00:13\x20GMT\r\nConnection:\x20close\r\n\r\n1\.0\n2007-01-19\n
+SF:2007-03-01\n2007-08-29\n2007-10-10\n2007-12-15\n2008-02-01\n2008-09-01\
+SF:n2009-04-04\nlatest")%r(HTTPOptions,EA,"HTTP/1\.1\x20200\x20OK\r\nConte
+SF:nt-Type:\x20text/plain;\x20charset=UTF-8\r\nContent-Length:\x2098\r\nDa
+SF:te:\x20Thu,\x2004\x20Apr\x202019\x2023:00:13\x20GMT\r\nConnection:\x20c
+SF:lose\r\n\r\n1\.0\n2007-01-19\n2007-03-01\n2007-08-29\n2007-10-10\n2007-
+SF:12-15\n2008-02-01\n2008-09-01\n2009-04-04\nlatest")%r(RTSPRequest,E0,"<
+SF:head>\n<title>Error\x20response</title>\n</head>\n<body>\n<h1>Error\x20
+SF:response</h1>\n<p>Error\x20code\x20400\.\n<p>Message:\x20Bad\x20request
+SF:\x20version\x20\('RTSP/1\.0'\)\.\n<p>Error\x20code\x20explanation:\x204
+SF:00\x20=\x20Bad\x20request\x20syntax\x20or\x20unsupported\x20method\.\n<
+SF:/body>\n")%r(FourOhFourRequest,F8,"HTTP/1\.1\x20500\x20Internal\x20Serv
+SF:er\x20Error\r\nContent-Length:\x2093\r\nContent-Type:\x20text/plain;\x2
+SF:0charset=UTF-8\r\nDate:\x20Thu,\x2004\x20Apr\x202019\x2023:00:18\x20GMT
+SF:\r\nConnection:\x20close\r\n\r\n500\x20Internal\x20Server\x20Error\n\nA
+SF:n\x20unknown\x20error\x20has\x20occurred\.\x20Please\x20try\x20your\x20
+SF:request\x20again\.\n\n\x20\x20\x20")%r(Help,DB,"<head>\n<title>Error\x2
+SF:0response</title>\n</head>\n<body>\n<h1>Error\x20response</h1>\n<p>Erro
+SF:r\x20code\x20400\.\n<p>Message:\x20Bad\x20request\x20syntax\x20\('HELP'
+SF:\)\.\n<p>Error\x20code\x20explanation:\x20400\x20=\x20Bad\x20request\x2
+SF:0syntax\x20or\x20unsupported\x20method\.\n</body>\n")%r(SSLSessionReq,1
+SF:7C,"<head>\n<title>Error\x20response</title>\n</head>\n<body>\n<h1>Erro
+SF:r\x20response</h1>\n<p>Error\x20code\x20400\.\n<p>Message:\x20Bad\x20re
+SF:quest\x20syntax\x20\('\\x16\\x03\\x00\\x00S\\x01\\x00\\x00O\\x03\\x00\?
+SF:G\\xd7\\xf7\\xba,\\xee\\xea\\xb2`~\\xf3\\x00\\xfd\\x82{\\xb9\\xd5\\x96\
+SF:\xc8w\\x9b\\xe6\\xc4\\xdb&lt;=\\xdbo\\xef\\x10n\\x00\\x00\(\\x00\\x16\\
+SF:x00\\x13\\x00'\)\.\n<p>Error\x20code\x20explanation:\x20400\x20=\x20Bad
+SF:\x20request\x20syntax\x20or\x20unsupported\x20method\.\n</body>\n");
+
+Nmap scan report for host-10-229-100-130.yeg.cloud.cybera.ca (10.229.100.130)
+Host is up (0.00076s latency).
+Not shown: 997 filtered ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.2
+22/tcp open  ssh     (protocol 2.0)
+80/tcp open  http    nginx 1.4.6 (Ubuntu)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6B%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for host-10-229-100-131.yeg.cloud.cybera.ca (10.229.100.131)
+Host is up (0.0057s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      vsftpd 3.0.2
+22/tcp  open  ssh      (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.7 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6B%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-132.yeg.cloud.cybera.ca (10.229.100.132)
+Host is up (0.0066s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      vsftpd 3.0.2
+22/tcp  open  ssh      (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.7 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6C%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-133.yeg.cloud.cybera.ca (10.229.100.133)
+Host is up (0.0019s latency).
+Not shown: 997 filtered ports
+PORT   STATE  SERVICE VERSION
+21/tcp open   ftp     vsftpd 3.0.2
+22/tcp open   ssh     (protocol 2.0)
+80/tcp closed http
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6B%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-135.yeg.cloud.cybera.ca (10.229.100.135)
+Host is up (0.0064s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      vsftpd 3.0.2
+22/tcp  open  ssh      (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.7 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6C%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-136.yeg.cloud.cybera.ca (10.229.100.136)
+Host is up (0.0066s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      vsftpd 3.0.2
+22/tcp  open  ssh      (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.7 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C6C%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-137.yeg.cloud.cybera.ca (10.229.100.137)
+Host is up (0.0061s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      vsftpd 3.0.3
+22/tcp  open  ssh      (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.7 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C72%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-138.yeg.cloud.cybera.ca (10.229.100.138)
+Host is up (0.0065s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      vsftpd 3.0.2
+22/tcp  open  ssh      (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.7 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C71%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-139.yeg.cloud.cybera.ca (10.229.100.139)
+Host is up (0.00082s latency).
+Not shown: 996 filtered ports
+PORT   STATE  SERVICE  VERSION
+20/tcp closed ftp-data
+21/tcp open   ftp      vsftpd 3.0.2
+22/tcp open   ssh      (protocol 2.0)
+80/tcp open   http     Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C72%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-140.yeg.cloud.cybera.ca (10.229.100.140)
+Host is up (0.0066s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      vsftpd 3.0.2
+22/tcp  open  ssh      (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.7 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C72%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-141.yeg.cloud.cybera.ca (10.229.100.141)
+Host is up (0.00035s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE VERSION
+21/tcp  open  ftp     vsftpd 3.0.2
+22/tcp  open  ssh     (protocol 2.0)
+80/tcp  open  http    Apache httpd 2.4.7 ((Ubuntu))
+443/tcp open  http    Apache httpd 2.4.7 ((Ubuntu))
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C72%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-142.yeg.cloud.cybera.ca (10.229.100.142)
+Host is up (0.0055s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     (protocol 2.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C72%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+
+Nmap scan report for host-10-229-100-147.yeg.cloud.cybera.ca (10.229.100.147)
+Host is up (0.0011s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE    VERSION
+20/tcp   closed ftp-data
+21/tcp   open   ftp        vsftpd 3.0.2
+22/tcp   open   ssh        (protocol 2.0)
+80/tcp   open   http       Apache httpd 2.4.38 ((Unix) OpenSSL/1.0.1f)
+443/tcp  open   ssl/http   Apache httpd 2.4.38 ((Unix) OpenSSL/1.0.1f)
+8080/tcp closed http-proxy
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C78%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for 10.229.100.150
+Host is up (0.0064s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.68
+80/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port80-TCP:V=6.40%I=7%D=4/4%Time=5CA68C78%P=x86_64-pc-linux-gnu%r(GetRe
+SF:quest,EA,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/plain;\x20cha
+SF:rset=UTF-8\r\nContent-Length:\x2098\r\nDate:\x20Thu,\x2004\x20Apr\x2020
+SF:19\x2023:00:25\x20GMT\r\nConnection:\x20close\r\n\r\n1\.0\n2007-01-19\n
+SF:2007-03-01\n2007-08-29\n2007-10-10\n2007-12-15\n2008-02-01\n2008-09-01\
+SF:n2009-04-04\nlatest")%r(HTTPOptions,EA,"HTTP/1\.1\x20200\x20OK\r\nConte
+SF:nt-Type:\x20text/plain;\x20charset=UTF-8\r\nContent-Length:\x2098\r\nDa
+SF:te:\x20Thu,\x2004\x20Apr\x202019\x2023:00:25\x20GMT\r\nConnection:\x20c
+SF:lose\r\n\r\n1\.0\n2007-01-19\n2007-03-01\n2007-08-29\n2007-10-10\n2007-
+SF:12-15\n2008-02-01\n2008-09-01\n2009-04-04\nlatest")%r(RTSPRequest,E0,"<
+SF:head>\n<title>Error\x20response</title>\n</head>\n<body>\n<h1>Error\x20
+SF:response</h1>\n<p>Error\x20code\x20400\.\n<p>Message:\x20Bad\x20request
+SF:\x20version\x20\('RTSP/1\.0'\)\.\n<p>Error\x20code\x20explanation:\x204
+SF:00\x20=\x20Bad\x20request\x20syntax\x20or\x20unsupported\x20method\.\n<
+SF:/body>\n")%r(FourOhFourRequest,F8,"HTTP/1\.1\x20500\x20Internal\x20Serv
+SF:er\x20Error\r\nContent-Length:\x2093\r\nContent-Type:\x20text/plain;\x2
+SF:0charset=UTF-8\r\nDate:\x20Thu,\x2004\x20Apr\x202019\x2023:00:30\x20GMT
+SF:\r\nConnection:\x20close\r\n\r\n500\x20Internal\x20Server\x20Error\n\nA
+SF:n\x20unknown\x20error\x20has\x20occurred\.\x20Please\x20try\x20your\x20
+SF:request\x20again\.\n\n\x20\x20\x20")%r(Help,DB,"<head>\n<title>Error\x2
+SF:0response</title>\n</head>\n<body>\n<h1>Error\x20response</h1>\n<p>Erro
+SF:r\x20code\x20400\.\n<p>Message:\x20Bad\x20request\x20syntax\x20\('HELP'
+SF:\)\.\n<p>Error\x20code\x20explanation:\x20400\x20=\x20Bad\x20request\x2
+SF:0syntax\x20or\x20unsupported\x20method\.\n</body>\n")%r(SSLSessionReq,1
+SF:7C,"<head>\n<title>Error\x20response</title>\n</head>\n<body>\n<h1>Erro
+SF:r\x20response</h1>\n<p>Error\x20code\x20400\.\n<p>Message:\x20Bad\x20re
+SF:quest\x20syntax\x20\('\\x16\\x03\\x00\\x00S\\x01\\x00\\x00O\\x03\\x00\?
+SF:G\\xd7\\xf7\\xba,\\xee\\xea\\xb2`~\\xf3\\x00\\xfd\\x82{\\xb9\\xd5\\x96\
+SF:\xc8w\\x9b\\xe6\\xc4\\xdb&lt;=\\xdbo\\xef\\x10n\\x00\\x00\(\\x00\\x16\\
+SF:x00\\x13\\x00'\)\.\n<p>Error\x20code\x20explanation:\x20400\x20=\x20Bad
+SF:\x20request\x20syntax\x20or\x20unsupported\x20method\.\n</body>\n");
+
+Nmap scan report for victimswindowsinstance.yeg.cloud.cybera.ca (10.229.100.151)
+Host is up (0.0065s latency).
+Not shown: 988 closed ports
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Microsoft IIS httpd 8.5
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+445/tcp   open  netbios-ssn
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+49152/tcp open  msrpc         Microsoft Windows RPC
+49153/tcp open  msrpc         Microsoft Windows RPC
+49154/tcp open  msrpc         Microsoft Windows RPC
+49155/tcp open  msrpc         Microsoft Windows RPC
+49156/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  msrpc         Microsoft Windows RPC
+49158/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for logger.yeg.cloud.cybera.ca (10.229.100.154)
+Host is up (0.0024s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     (protocol 2.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C7E%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+
+Nmap scan report for host-10-229-100-155.cloud.cybera.ca (10.229.100.155)
+Host is up (0.0027s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.2
+22/tcp open  ssh     (protocol 2.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C7E%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2B,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\.8\r\n");
+Service Info: OS: Unix
+
+Nmap scan report for host-10-229-100-156.cloud.cybera.ca (10.229.100.156)
+Host is up (0.0029s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     (protocol 2.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port22-TCP:V=6.40%I=7%D=4/4%Time=5CA68C7E%P=x86_64-pc-linux-gnu%r(NULL,
+SF:29,"SSH-2\.0-OpenSSH_7\.6p1\x20Ubuntu-4ubuntu0\.3\r\n");
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 256 IP addresses (22 hosts up) scanned in 161.13 seconds
